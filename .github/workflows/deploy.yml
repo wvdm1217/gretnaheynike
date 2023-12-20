@@ -14,6 +14,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - run: cd website
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -21,7 +22,6 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: cd website
       - run: npm ci
       - name: Build
         run: npm run build
