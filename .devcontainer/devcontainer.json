@@ -11,7 +11,8 @@
 				"GitHub.copilot-chat",
 				"Vue.vscode-typescript-vue-plugin",
 				"Vue.volar",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"github.vscode-github-actions"
 			]
 		}
 	}
