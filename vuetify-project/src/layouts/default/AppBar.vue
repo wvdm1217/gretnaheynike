@@ -1,7 +1,7 @@
 <template>
   <v-app-bar flat v-if="route.path !== '/'">
     <v-app-bar-title>
-      <nav-button href="/" icon="mdi-home" text="Gretna Heynike" />
+      <NavButton href="/" icon="mdi-home" text="Gretna Heynike" />
     </v-app-bar-title>
   </v-app-bar>
 </template>

@@ -1,7 +1,7 @@
 <template>
-  <HomePage />
+  <AboutPage />
 </template>
 
 <script lang="ts" setup>
-  import HomePage from '@/components/AboutPage.vue';
+  import AboutPage from '@/components/AboutPage.vue';
 </script>
