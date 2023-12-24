@@ -11,10 +11,10 @@
 
       <v-row class="d-flex align-center justify-center">
 
-        <NavButton href="/about" icon="mdi-music-note-eighth" text="About" />
-        <NavButton href="/teaching" icon="mdi-music-note-quarter" text="Teaching" />
-        <NavButton href="/performance" icon="mdi-music-note-half" text="Performance" />
-        <NavButton href="/contact" icon="mdi-music-note" text="Contact" />
+        <NavButton href="/about" icon="mdi-music-note-sixteenth" text="About" />
+        <NavButton href="/teaching" icon="mdi-music-note-eighth" text="Teaching" />
+        <NavButton href="/performance" icon="mdi-music-note-quarter" text="Performance" />
+        <NavButton href="/contact" icon="mdi-music-note-half" text="Contact" />
       </v-row>
     </v-responsive>
   </v-container>
