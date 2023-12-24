@@ -10,78 +10,17 @@
       <div class="py-14" />
 
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
-          <v-btn
-            href="/about"
-            min-width="164"
-            rel="noopener noreferrer"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-music-note-eighth"
-              size="large"
-              start
-            />
 
-            About
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            href="/teaching"
-            min-width="164"
-            rel="noopener noreferrer"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-music-note-quarter"
-              size="large"
-              start
-            />
-
-            Teaching
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            href="/performance"
-            min-width="164"
-            rel="noopener noreferrer"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-music-note-half"
-              size="large"
-              start
-            />
-
-            Performance
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            href="/contact"
-            min-width="164"
-            rel="noopener noreferrer"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-music-note"
-              size="large"
-              start
-            />
-
-            Contact
-          </v-btn>
-        </v-col>
+        <NavButton href="/about" icon="mdi-music-note-eighth" text="About" />
+        <NavButton href="/teaching" icon="mdi-music-note-quarter" text="Teaching" />
+        <NavButton href="/performance" icon="mdi-music-note-half" text="Performance" />
+        <NavButton href="/contact" icon="mdi-music-note" text="Contact" />
       </v-row>
     </v-responsive>
   </v-container>
 </template>
 
 <script lang="ts" setup>
-  //
+//
+import NavButton from '@/components/NavButton.vue';
 </script>
